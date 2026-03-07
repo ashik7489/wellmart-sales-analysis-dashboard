@@ -1,0 +1,105 @@
+Project Overview
+This project analyzes Wellmart retail sales data to understand store performance, seasonal trends, customer purchasing behavior, and the impact of external factors on sales.
+
+The project demonstrates an end-to-end data analysis workflow, starting from data cleaning and statistical analysis to database management and interactive dashboard visualization.
+
+Tools & Technologies Used
+
+Python (Pandas, NumPy) – Data cleaning, preprocessing, and statistical analysis
+
+SQL (MySQL) – Data storage and analytical queries
+
+Excel – Initial data exploration and validation
+
+Power BI – Interactive dashboard and visualization
+
+Statistics – Descriptive statistics and correlation analysis
+
+Project Workflow
+1. Data Cleaning & Preparation (Python)
+
+Loaded and cleaned the dataset using Pandas
+
+Converted the Date column to datetime format
+
+Created additional features such as:
+
+Year
+
+Month
+
+Quarter
+
+Removed inconsistencies and prepared the dataset for analysis
+
+2. Statistical Analysis
+
+Performed statistical analysis to understand sales distribution and variability:
+
+Mean and Median to measure average sales
+
+Standard Deviation to measure sales volatility
+
+Coefficient of Variation (CV) to compare store stability
+
+Correlation analysis to understand relationships between variables such as:
+
+Fuel Price
+
+CPI
+
+Temperature
+
+Unemployment
+
+Weekly Sales
+
+3. Database Integration (SQL)
+
+Uploaded the cleaned dataset into MySQL
+
+Performed SQL queries to analyze:
+
+Store performance
+
+Year-wise revenue trends
+
+Seasonal sales patterns
+
+Holiday impact on sales
+
+4. Data Visualization (Power BI)
+
+Created an interactive Power BI dashboard to present insights visually.
+
+The dashboard includes:
+
+Total Revenue KPI
+
+Average Weekly Sales
+
+Store Performance Analysis
+
+Year-wise Revenue Comparison
+
+Month-wise Sales Trends
+
+Holiday vs Non-Holiday Sales Analysis
+
+Interactive Filters (Year, Month, Store)
+
+Key Business Insights
+
+Store 20 generated the highest revenue (~301M), making it the top-performing store.
+
+Store 33 generated the lowest revenue (~33M) over the three-year period.
+
+2011 recorded the highest total revenue (~2448M).
+
+2012 showed slightly lower revenue compared to previous years.
+
+July recorded the highest monthly sales.
+
+January had the lowest sales performance.
+
+Holiday weeks show higher average sales compared to non-holiday weeks.
