@@ -1,105 +1,95 @@
-Project Overview
+# 🛒 Wellmart Sales Analysis Dashboard
+
+## 📊 Project Overview
 This project analyzes Wellmart retail sales data to understand store performance, seasonal trends, customer purchasing behavior, and the impact of external factors on sales.
 
-The project demonstrates an end-to-end data analysis workflow, starting from data cleaning and statistical analysis to database management and interactive dashboard visualization.
+It demonstrates an end-to-end data analytics workflow including data cleaning, statistical analysis, SQL-based querying, and interactive dashboard visualization.
 
-Tools & Technologies Used
+---
 
-Python (Pandas, NumPy) – Data cleaning, preprocessing, and statistical analysis
+## 🎯 Objective
+- Analyze store performance and revenue trends
+- Identify seasonal patterns in sales
+- Understand the impact of external factors (CPI, Fuel Price, Temperature, Unemployment)
+- Build an interactive dashboard for business insights
 
-SQL (MySQL) – Data storage and analytical queries
+---
 
-Excel – Initial data exploration and validation
+## 🛠 Tools & Technologies
+- Python (Pandas, NumPy)
+- SQL (MySQL)
+- Microsoft Excel
+- Power BI
+- Statistics (Descriptive & Correlation Analysis)
 
-Power BI – Interactive dashboard and visualization
+---
 
-Statistics – Descriptive statistics and correlation analysis
+## 🔄 Project Workflow
 
-Project Workflow
-1. Data Cleaning & Preparation (Python)
+### 1️⃣ Data Cleaning & Preparation (Python)
+- Cleaned and preprocessed dataset using Pandas
+- Converted Date column into datetime format
+- Created new features: Year, Month, Quarter
+- Removed inconsistencies and ensured data quality
 
-Loaded and cleaned the dataset using Pandas
+---
 
-Converted the Date column to datetime format
+### 2️⃣ Statistical Analysis
+- Calculated Mean, Median, and Standard Deviation
+- Used Coefficient of Variation (CV) to analyze stability
+- Performed correlation analysis between:
+  - Fuel Price
+  - CPI
+  - Temperature
+  - Unemployment
+  - Weekly Sales
 
-Created additional features such as:
+---
 
-Year
+### 3️⃣ Database Integration (SQL)
+- Loaded cleaned dataset into MySQL
+- Performed queries to analyze:
+  - Store performance
+  - Year-wise revenue trends
+  - Seasonal sales patterns
+  - Holiday impact on sales
 
-Month
+---
 
-Quarter
+### 4️⃣ Data Visualization (Power BI)
+- Built an interactive dashboard with:
+  - Total Revenue KPI
+  - Average Weekly Sales
+  - Store Performance Analysis
+  - Year-wise Revenue Comparison
+  - Monthly Sales Trends
+  - Holiday vs Non-Holiday Analysis
+  - Interactive Filters (Year, Month, Store)
 
-Removed inconsistencies and prepared the dataset for analysis
+---
 
-2. Statistical Analysis
+## 📈 Key Business Insights
+- Store 20 generated the highest revenue (~301M)
+- Store 33 generated the lowest revenue (~33M)
+- 2011 recorded the highest total revenue (~2448M)
+- July showed peak sales performance
+- January recorded the lowest sales
+- Holiday weeks had higher average sales than non-holiday periods
 
-Performed statistical analysis to understand sales distribution and variability:
+---
 
-Mean and Median to measure average sales
+## 🚀 Conclusion
+This project highlights how data analytics can be used to uncover trends, improve decision-making, and drive business performance through interactive dashboards.
+🔥 LinkedIn ke liye Short Version (IMPORTANT)
 
-Standard Deviation to measure sales volatility
+👉 Experience / Project me ye use karo:
 
-Coefficient of Variation (CV) to compare store stability
+Developed an end-to-end Sales Analysis project using Python, SQL, Excel, and Power BI.
 
-Correlation analysis to understand relationships between variables such as:
+• Performed data cleaning, feature engineering, and statistical analysis using Pandas
+• Analyzed sales trends, seasonality, and external factors (CPI, fuel price, unemployment)
+• Built SQL queries for store performance and revenue insights
+• Created an interactive Power BI dashboard with KPI tracking and filters
+• Generated business insights on top-performing stores and seasonal trends
 
-Fuel Price
-
-CPI
-
-Temperature
-
-Unemployment
-
-Weekly Sales
-
-3. Database Integration (SQL)
-
-Uploaded the cleaned dataset into MySQL
-
-Performed SQL queries to analyze:
-
-Store performance
-
-Year-wise revenue trends
-
-Seasonal sales patterns
-
-Holiday impact on sales
-
-4. Data Visualization (Power BI)
-
-Created an interactive Power BI dashboard to present insights visually.
-
-The dashboard includes:
-
-Total Revenue KPI
-
-Average Weekly Sales
-
-Store Performance Analysis
-
-Year-wise Revenue Comparison
-
-Month-wise Sales Trends
-
-Holiday vs Non-Holiday Sales Analysis
-
-Interactive Filters (Year, Month, Store)
-
-Key Business Insights
-
-Store 20 generated the highest revenue (~301M), making it the top-performing store.
-
-Store 33 generated the lowest revenue (~33M) over the three-year period.
-
-2011 recorded the highest total revenue (~2448M).
-
-2012 showed slightly lower revenue compared to previous years.
-
-July recorded the highest monthly sales.
-
-January had the lowest sales performance.
-
-Holiday weeks show higher average sales compared to non-holiday weeks.
+GitHub: https://github.com/ashik7489/wellmart-sales-analysis-dashboard
